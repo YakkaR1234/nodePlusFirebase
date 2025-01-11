@@ -5,6 +5,7 @@ const dotenv = require("dotenv");
 
 const customerRoutes = require("./routes/CustomerRoutes");
 const productRoutes = require("./routes/ProductRoutes");
+const orderRoutes = require("./routes/OrderRoutes");
 
 dotenv.config();
 
@@ -16,6 +17,7 @@ const MONGO_URI = process.env.MONGO_URI;
 
 app.use("/customer", customerRoutes);
 app.use("/product", productRoutes);
+app.use("/order", orderRoutes);
 
 mongoose
   .connect(MONGO_URI, {
