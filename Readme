@@ -1,0 +1,65 @@
+Yashod Peiris
+API documentation (list of routes with request and response formats).
+
+customer
+ get-All-customer
+ http://localhost:5000/customer/get-all-customers
+
+ get-customerById 
+ http://localhost:5000/customer/get-customer/67781ef5c487390264bbdc7d
+
+ create-customer
+ http://localhost:5000/customer/create-customer
+ 
+ update-customer
+ http://localhost:5000/customer/update-customer/67781ef5c487390264bbdc7d
+
+ delete-customer
+ http://localhost:5000/customer/delete-customer/67781ef5c487390264bbdc7d
+
+Product
+ get-all-products
+ http://localhost:5000/product/get-all-products
+
+ get-product-by-id
+ http://localhost:5000/product/get-product-by-id/67782fc9c189bfc6cdbd440a
+
+ create-product
+ http://localhost:5000/product/create-product
+
+ update-customer
+ http://localhost:5000/product/update-product/67782fc9c189bfc6cdbd440a
+
+ delete-product
+ http://localhost:5000/product/delete-product/67782fc9c189bfc6cdbd440a
+
+Order
+ create-order
+ http://localhost:5000/order/create-order
+
+ get-all-orders
+ http://localhost:5000/order/all-order
+
+ most-frq
+ http://localhost:5000/order/most-frq
+
+ count-all0customers
+ http://localhost:5000/order/count-customer
+
+ customer-who-didit-ordered
+ http://localhost:5000/order/customer-not-Ordered
+
+ get-order-by-id
+ http://localhost:5000/order/get-by-id/678249813616e6a220144eda
+
+ get-All-orders-by-customerid
+ http://localhost:5000/order/all-orders-by-customerid/67781db8c487390264bbdc79
+
+ get-All-orders-by-date
+ http://localhost:5000/order/orders-by-date/2025-01-11
+
+ revenue-by-date
+ http://localhost:5000/order/revenue-by-date/2025-01-11
+
+ delete-order
+ http://localhost:5000/order/delete-order/678249813616e6a220144eda
